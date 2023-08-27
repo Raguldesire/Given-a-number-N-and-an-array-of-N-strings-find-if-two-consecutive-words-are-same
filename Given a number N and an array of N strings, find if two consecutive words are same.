@@ -1,0 +1,9 @@
+n=int(input())              #getting the input for iterate the loop
+l=[]                        #creating empty list to append the values
+for i in range (1,n+1):
+  l.append(input())
+m=set(l)                    #set removes duplicates 
+if len(l)==len(m):          #checking the length of those l and m
+  print("no")
+else:
+  print("yes")
